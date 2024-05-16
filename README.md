@@ -7,7 +7,7 @@ Simple-Media-Saver-Bot is a Telegram bot designed to allow users to store their 
 To use this bot, users should send their desired media to the bot. The bot then generates a random key and provides a link that users can use to access their media.
 
 ## Installation
-To set up the Simple-media-saver-bot, place your `bot_session` file in the bot's directory. This file contains your session data and is crucial for the bot's connection to the Telegram API. Ensure that this file is kept secure and is not shared publicly.
+To set up the Simple-Media-Saver-Bot, place your `bot_session` file in the bot's directory. This file contains your session data and is crucial for the bot's connection to the Telegram API. Ensure that this file is kept secure and is not shared publicly.
 
 ## Running the Bot
 First install requirements:
