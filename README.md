@@ -20,7 +20,7 @@ api_id    = YOUR_API_ID
 api_hash  = YOUR_API_HASH
 bot_token = YOUR_BOT_TOKEN
 ```   
-You can obtain the api_id and api_hash from the [Telegram website](https://my.telegram.org/). Obtain the bot_token from the [BotFather](https://t.me/BotFather) bot on Telegram.
+You can obtain the `api_id` and `api_hash` from the [Telegram website](https://my.telegram.org/). Obtain the `bot_token` from the [BotFather](https://t.me/BotFather) bot on Telegram.
 
 4. Run the bot:
 ```bash
