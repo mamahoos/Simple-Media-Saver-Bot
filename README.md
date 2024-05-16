@@ -40,6 +40,10 @@ python3 main.py
 
 Feel free to contribute to this project and enhance its functionality!
 
+## TODO
+- [ ] Implement functionality to handle `media-groups`.
+- [ ] Using databases.
+
 ---
 
 For more information, visit the [Pyrogram documentation](https://docs.pyrogram.org/).
