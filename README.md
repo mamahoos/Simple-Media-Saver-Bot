@@ -1,24 +1,44 @@
-# Simple-Media-Saver-Bot
+# Simple Media Saver Bot
 
-## About the Bot
 Simple-Media-Saver-Bot is a Telegram bot designed to allow users to store their media. Written using the Pyrogram library, it enables users to send media to the bot and receive a unique link to access their media.
 
-## How to Use
-To use this bot, users should send their desired media to the bot. The bot then generates a random key and provides a link that users can use to access their media.
+## Setup
 
-## Installation
-To set up the Simple-Media-Saver-Bot, place your `bot_session` file in the bot's directory. This file contains your session data and is crucial for the bot's connection to the Telegram API. Ensure that this file is kept secure and is not shared publicly.
+1. Clone the repository:
+```bash
+git clone https://github.com/mamahoos/Simple-Media-Saver-Bot.git
+```   
 
-## Running the Bot
-First install requirements:
+2. Install the required dependencies:
 ```bash
 pip install -r requirements.txt
-```
-And run main.py
+```  
+
+3. Create a .env file with the following variables:
+```env
+api_id=YOUR_API_ID
+api_hash=YOUR_API_HASH
+bot_token=YOUR_BOT_TOKEN
+```   
+
+4. Run the bot:
 ```bash
 python3 main.py
-```
+```   
 
-## TODO
-- [ ] Handle media groups.
+## Usage
 
+- Send any media file to the bot in a private chat to save it.
+- The bot will generate a unique link for each saved media file.
+- Use the generated link to retrieve the saved media file.
+
+## Features
+
+- Saves media files with unique keys.
+- Retrieves saved media files using the generated links.
+
+Feel free to contribute to this project and enhance its functionality!
+
+---
+
+For more information, visit the [Pyrogram documentation](https://docs.pyrogram.org/).

@@ -1,16 +1,14 @@
-from pyrogram import Client, filters, types
+from config import filters, types, bot, bot_username
 from utils import random_string, raw_link
 
 media    = {}
-bot      = Client('bot_session')
-with bot : bot_username = bot.me.username
 raw_link = raw_link.format(bot_username)
-
 
 @bot.on_message(filters.private & filters.text)
 async def _(_, message: types.Message):
-    if len(message.text.split()) == 2 and message.text.split()[0] == '/start':
-        key = message.text.split()[1]
+    splited_text = message.text.split()
+    if len(splited_text) == 2 and splited_text[0] == '/start':
+        key = splited_text[1]
         if key in media:
             file = media[key]
             await bot.copy_message(message.from_user.id, file['userid'], file['message_id'])
