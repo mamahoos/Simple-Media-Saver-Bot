@@ -16,9 +16,9 @@ pip install -r requirements.txt
 
 3. Create a `.env` file with the following variables:
 ```env
-api_id=YOUR_API_ID
-api_hash=YOUR_API_HASH
-bot_token=YOUR_BOT_TOKEN
+api_id    = YOUR_API_ID
+api_hash  = YOUR_API_HASH
+bot_token = YOUR_BOT_TOKEN
 ```   
 
 4. Run the bot:
