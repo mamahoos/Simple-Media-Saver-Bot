@@ -13,16 +13,13 @@ async def _(_, message: types.Message):
             file = media[key]
             await bot.copy_message(message.from_user.id, file['userid'], file['message_id'])
 
-
 @bot.on_message(filters.private & filters.media)
 async def _(_, message: types.Message):
     while (key := random_string()) in media:   pass
     userid = message.from_user.id
     message_id = message.id
-
     media[key] = {'userid': userid, 'message_id': message_id}
     link = raw_link + key
     await message.reply(link)
-
 
 bot.run()
