@@ -18,7 +18,7 @@ async def _(_, message: types.Message):
 
 @bot.on_message(filters.private & filters.media)
 async def _(_, message: types.Message):
-    key = random_string(10)
+    while (key := random_string()) in media:   pass
     userid = message.from_user.id
     message_id = message.id
 
