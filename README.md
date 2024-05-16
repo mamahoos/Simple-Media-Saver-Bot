@@ -14,7 +14,7 @@ git clone https://github.com/mamahoos/Simple-Media-Saver-Bot.git
 pip install -r requirements.txt
 ```  
 
-3. Create a .env file with the following variables:
+3. Create a `.env` file with the following variables:
 ```env
 api_id=YOUR_API_ID
 api_hash=YOUR_API_HASH
