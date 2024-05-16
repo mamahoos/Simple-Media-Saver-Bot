@@ -11,11 +11,13 @@ To set up the Simple-media-saver-bot, place your `bot_session` file in the bot's
 
 ## Running the Bot
 First install requirements:
-    ```bash
-    pip install -r requirements.txt```
+```bash
+pip install -r requirements.txt
+```
 And run main.py
-    ```bash
-    python3 main.py```
+```bash
+python3 main.py
+```
 
 ## TODO
 - [ ] Handle media groups.
