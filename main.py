@@ -4,10 +4,10 @@ from utils import random_string, raw_link
 media    = {}
 raw_link = raw_link.format(bot_username)
 
-@bot.on_message(filters.private & filters.text)
+@bot.on_message(filters.private & filters.command('start'))
 async def _(_, message: types.Message):
     splited_text = message.text.split()
-    if len(splited_text) == 2 and splited_text[0] == '/start':
+    if len(splited_text) == 2:
         key = splited_text[1]
         if key in media:
             file = media[key]
