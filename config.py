@@ -7,6 +7,7 @@ API_HASH  = getenv('api_hash')
 BOT_TOKEN = getenv('bot_token')
 
 from pyrogram import Client, types, filters
+from utils import raw_link
 
 bot = Client(
     'bot_session',
@@ -17,3 +18,4 @@ bot = Client(
 
 with bot:
     bot_username = bot.me.username
+    raw_link = raw_link.format(bot_username)

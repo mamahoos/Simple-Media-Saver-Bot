@@ -1,5 +1,5 @@
-from config import filters, types, bot, bot_username
-from utils import random_string, raw_link
+from config import filters, types, bot, bot_username, raw_link
+from utils import random_string
 
 media    = {}
 raw_link = raw_link.format(bot_username)
