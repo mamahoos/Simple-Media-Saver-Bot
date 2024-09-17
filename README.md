@@ -16,9 +16,9 @@ pip install -r requirements.txt
 
 3. Create a `.env` file with the following variables:
 ```env
-api_id    = YOUR_API_ID
-api_hash  = YOUR_API_HASH
-bot_token = YOUR_BOT_TOKEN
+api_id=YOUR_API_ID
+api_hash=YOUR_API_HASH
+bot_token=YOUR_BOT_TOKEN
 ```   
 You can obtain the `api_id` and `api_hash` from the [Telegram website](https://my.telegram.org/). Obtain the `bot_token` from the [BotFather](https://t.me/BotFather) bot on Telegram.
 
